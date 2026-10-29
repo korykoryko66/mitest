@@ -1,7 +1,0 @@
-# 本機 RTX 4060 實驗使用的 CUDA 12.8 組建；適用 Python 3.12。
-# Colab 使用預裝套件即可，不需要套用此本機環境檔案。
---extra-index-url https://download.pytorch.org/whl/cu128
-torch==2.9.1+cu128
-torchvision==0.24.1+cu128
-numpy==2.5.4
-matplotlib==3.11.2
