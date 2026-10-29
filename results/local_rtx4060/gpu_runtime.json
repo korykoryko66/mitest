@@ -1,0 +1,20 @@
+{
+  "execution_location": "Local Windows laptop, not a Google Colab cloud runtime",
+  "started_at_utc": "2026-10-29T00:38:05.438416+00:00",
+  "finished_at_utc": "2026-10-29T00:38:57.067613+00:00",
+  "whole_experiment_seconds": 51.62906219996512,
+  "entry_point": "src.training.run_experiment",
+  "reproduce_command": "python train.py --require-gpu --output-dir outputs/rtx4060_repeat",
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "compute_capability": [
+    8,
+    9
+  ],
+  "gpu_total_memory_bytes": 8585216000,
+  "pytorch_peak_allocated_bytes": 43897856,
+  "pytorch_peak_reserved_bytes": 71303168,
+  "cuda_tensor_execution_verified": true,
+  "training_source_sha256": "b3e8c0545f9095f285680c9b322002edb598e0a7a50f97c987fb6543c129fcca",
+  "checkpoint_sha256": "9330294c9b808bcbe0f119e8c0806a57fabf590cedbc341fb0edceba4b1a1565"
+}

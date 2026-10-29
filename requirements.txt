@@ -1,0 +1,6 @@
+# Colab 已有相容的 torch/torchvision，通常不需要重新安裝。
+# 本機安裝時由 pip 解析相容的 PyTorch / torchvision 組合。
+torch>=2.5,<3
+torchvision>=0.20,<1
+numpy>=1.26,<3
+matplotlib>=3.8,<4

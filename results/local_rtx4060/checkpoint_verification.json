@@ -1,0 +1,17 @@
+{
+  "full_dataset_and_config_verified": true,
+  "five_epoch_history_verified": true,
+  "best_validation_checkpoint_verified": true,
+  "training_source_sha256_verified": true,
+  "checkpoint_sha256_verified": true,
+  "cpu_checkpoint_load_and_inference_verified": true,
+  "gpu_checkpoint_load_and_inference_verified": true,
+  "synthetic_input_shape": [
+    2,
+    1,
+    28,
+    28
+  ],
+  "cpu_gpu_logits_max_absolute_difference": 7.152557373046875e-07,
+  "test_set_evaluated_again": false
+}

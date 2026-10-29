@@ -1,0 +1,6 @@
+{
+  "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "driver_version": "610.74",
+  "memory.total [MiB]": "8188",
+  "compute_cap": "8.9"
+}

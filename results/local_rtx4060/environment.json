@@ -1,0 +1,13 @@
+{
+  "recorded_at_utc": "2026-10-29T00:38:55.952729+00:00",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.9.1+cu128",
+  "torchvision": "0.24.1+cu128",
+  "numpy": "2.5.4",
+  "device": "cuda",
+  "cuda_available": true,
+  "cuda_runtime": "12.8",
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "cpu_threads": 4
+}
