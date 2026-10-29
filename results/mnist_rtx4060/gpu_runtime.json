@@ -1,0 +1,22 @@
+{
+  "execution_location": "Local RTX 4060 Windows laptop; not a Google Colab cloud runtime",
+  "article_url": "https://zhuanlan.zhihu.com/p/379291795",
+  "started_at_utc": "2026-10-29T05:35:28.219356+00:00",
+  "finished_at_utc": "2026-10-29T05:36:34.154339+00:00",
+  "whole_experiment_seconds": 65.93499569990672,
+  "entry_point": "src.training.run_experiment",
+  "reproduce_command": "python train.py --require-gpu --output-dir outputs/mnist_reproduction",
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "compute_capability": [
+    8,
+    9
+  ],
+  "gpu_total_memory_bytes": 8585216000,
+  "pytorch_peak_allocated_bytes": 20016640,
+  "pytorch_peak_reserved_bytes": 25165824,
+  "cuda_tensor_execution_verified": true,
+  "training_source_sha256": "a7518d77f366d22b78dbdc5a742339d9eb43abeb0f5388a6d387acee7c71126a",
+  "checkpoint_sha256": "e3fe7a87705bdd236d4950730c6e4994b20ebf8f5d287afbd2d8c7e861bf8fa9",
+  "whole_experiment_scope": "run_experiment including download if needed, initial validation, training, final test and plots"
+}

@@ -1,0 +1,20 @@
+{
+  "dataset": "MNIST",
+  "full_dataset_and_config_verified": true,
+  "ten_epoch_sgd_schedule_verified": true,
+  "best_validation_checkpoint_verified": true,
+  "source_and_checkpoint_sha256_verified": true,
+  "confusion_matrix_matches_test_accuracy": true,
+  "test_correct": 9699,
+  "test_total": 10000,
+  "cpu_checkpoint_load_and_inference_verified": true,
+  "gpu_checkpoint_load_and_inference_verified": true,
+  "synthetic_input_shape": [
+    2,
+    1,
+    28,
+    28
+  ],
+  "cpu_gpu_logits_max_absolute_difference": 1.9073486328125e-06,
+  "test_set_evaluated_again": false
+}

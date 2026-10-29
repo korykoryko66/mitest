@@ -1,0 +1,14 @@
+{
+  "epochs": 10,
+  "batch_size": 128,
+  "val_batch_size": 256,
+  "learning_rate": 0.5,
+  "second_learning_rate": 0.1,
+  "switch_epoch": 5,
+  "hidden_size": 32,
+  "seed": 42,
+  "val_size": 10000,
+  "num_workers": 0,
+  "quick": false,
+  "require_gpu": true
+}
