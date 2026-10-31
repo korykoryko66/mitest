@@ -1,4 +1,4 @@
-# 在 Google Colab GPU 重現 MNIST：從訓練到結果比較
+# 完整的动手指南，可在Google Colab GPU上训练你的神经网络模型
 
 這是依參考文章的實驗設定，使用 Google Colab GPU 與 PyTorch 獨立實作的 MNIST 手寫數字分類專案。重點是看懂資料如何進入神經網路、參數如何更新，以及驗證結果如何計算，再把本次執行與原作者的輸出分開比較。
 
