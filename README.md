@@ -116,6 +116,26 @@ L = -z[y] + log(sum(exp(z[k])))
 | `environment.json` | Python、套件、裝置與 GPU 資訊；種子記錄於 `metrics.json` |
 | `model.pt` | Colab 執行時產生的模型權重；GitHub 不另附獨立權重檔，`.gitignore` 亦排除它；Notebook 內的結果 ZIP 連結仍可取得 |
 
+## Colab 完成頁面截圖（2026-11-02）
+
+以下為 2026-11-02 在 Google Colab Tesla T4 GPU 重新執行的實際頁面截圖。完整訓練 10 輪後，獨立測試準確率為 **96.68%（9,668／10,000）**，test loss 為 **0.1074**，訓練與驗證耗時 **83.64 秒**。
+
+本節記錄 11 月 2 日的重跑；上方的 75.4259 秒及 `results/`、執行版 notebook 則保留 11 月 1 日的實驗紀錄。兩次執行的時間分開呈現，計時範圍皆排除資料下載、初始驗證、最終測試與製圖。
+
+### 完成畫面與測試結果
+
+![Colab T4 執行完成：結果表格與測試準確率 96.68%](https://github.com/user-attachments/assets/f64cdbe4-5c76-4c22-9e29-e422a96600f1)
+
+### 完整十輪訓練紀錄
+
+畫面保留本次環境時間、Tesla T4、10 輪學習率與驗證紀錄，以及最後的測試分數和「Outputs saved」完成訊息。
+
+![Colab 十輪訓練完成紀錄與 83.64 秒計時](https://github.com/user-attachments/assets/f680869a-c113-49c0-8941-eabd38b85d6a)
+
+### Colab 頁面中的學習曲線
+
+![Colab 頁面的驗證 loss 與 accuracy 學習曲線](https://github.com/user-attachments/assets/ec4e6516-d264-41e2-b141-0469bf465f4c)
+
 ## 參考來源
 
 - [使用者提供的中文參考文章](https://zhuanlan.zhihu.com/p/379291795)。
